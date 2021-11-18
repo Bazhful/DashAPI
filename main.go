@@ -3,6 +3,7 @@ package main
 import (
 	"os"
 
+	"github.com/Bazhful/DashAPI/pkg/configs"
 	"github.com/create-go-app/fiber-go-template/pkg/configs"
 	"github.com/create-go-app/fiber-go-template/pkg/middleware"
 	"github.com/create-go-app/fiber-go-template/pkg/routes"
