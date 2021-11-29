@@ -3,15 +3,14 @@ package main
 import (
 	"os"
 
-	"github.com/Bazhful/DashAPI/pkg/configs"
-	"github.com/create-go-app/fiber-go-template/pkg/configs"
-	"github.com/create-go-app/fiber-go-template/pkg/middleware"
-	"github.com/create-go-app/fiber-go-template/pkg/routes"
-	"github.com/create-go-app/fiber-go-template/pkg/utils"
+	"github.com/bazhful/DashAPI/pkg/configs"
+	"github.com/bazhful/DashAPI/pkg/middleware"
+	"github.com/bazhful/DashAPI/pkg/routes"
+	"github.com/bazhful/DashAPI/pkg/utils"
 
 	"github.com/gofiber/fiber/v2"
 
-	_ "github.com/create-go-app/fiber-go-template/docs" // load API Docs files (Swagger)
+	_ "github.com/bazhful/DashAPI/docs" // load API Docs files (Swagger)
 
 	_ "github.com/joho/godotenv/autoload" // load .env file automatically
 )
